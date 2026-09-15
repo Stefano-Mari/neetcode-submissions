@@ -6,10 +6,3 @@ class Solution:
             temp = target - nums[i]
             if temp in seen: return [seen[temp], i]
             seen[nums[i]] = i
-            
-
-            
-
-            
-
-        
